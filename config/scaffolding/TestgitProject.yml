@@ -7,3 +7,20 @@ packages:
   gitUrl: https://github.com/sumit-kejriwal-ibm
   gitUsername: sumit-kejriwal-ibm
   gitBranch: main
+- name: tpp1
+  version: "1.0"
+  gitServerName: test
+  gitUrl: https://github.com/sumit-kejriwal-ibm
+  gitUsername: sumit-kejriwal-ibm
+  gitBranch: v1
+services:
+- serviceName: project.testgit.integrations:f1
+  packages:
+  - name: TestgitProject
+    version: "1.0"
+  - name: tpp1
+    version: "1.0"
+- serviceName: pub.date:compareDates
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2050

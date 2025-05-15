@@ -23,4 +23,4 @@ services:
 - serviceName: pub.date:compareDates
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2050
+    version: 11.1.0.0.2054

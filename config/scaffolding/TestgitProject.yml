@@ -6,7 +6,7 @@ packages:
   gitServerName: test
   gitUrl: https://github.com/sumit-kejriwal-ibm
   gitUsername: sumit-kejriwal-ibm
-  gitBranch: main
+  gitBranch: v1
 - name: tpp1
   version: "1.0"
   gitServerName: test
